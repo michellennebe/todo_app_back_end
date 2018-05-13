@@ -6,9 +6,9 @@
 
     <div>
       <input type="checkbox">
-      <h2><%= @todo_description %></h2>
+      <h2><%= @todo.description %></h2>
       <h3>Todo #<%= params[:id] %></h3>
-      <span><%= 3+1 %></span>
+      <span><%= @todo.pomodoro_estimate %></span>
       <a href="#" id="edit-todo-button">Edit</a>
       <a href="#" id="delete-todo-button">Delete</a>
       <a href="index.html" class="simple-link">Go back...</a>
