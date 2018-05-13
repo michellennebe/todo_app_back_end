@@ -13,10 +13,10 @@
  *= require_tree .
  *= require_self
  */
-body{
- color: #424242;
- background-color: #ff004c;
- font-family: sans-serif;
+body {
+   background-image: url("https://img00.deviantart.net/4300/i/2010/226/5/f/flower_close_up_ii_by_swiftflyer.jpg");
+   background-color: #cccccc;
+   font-family: sans-serif;
 }
 
 h1{
